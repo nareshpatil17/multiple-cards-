@@ -1,0 +1,29 @@
+@font-face {
+    font-family: the drive ;
+    src: url(../Dracutaz.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 100%;
+    width: 100%;
+    background-image: url(../image2.jpg);
+    background-size: cover;
+
+}
+#box > h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: the drive;
+    font-weight: 500;
+    color: #A47849;
+}

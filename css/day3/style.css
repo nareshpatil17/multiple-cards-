@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    margin-left: 30%;
+    margin-top: 10%;
+    background: linear-gradient(orange , white , green);
+
+    /* background: radial-gradient(red 30%, blue  , yellow); */
+
+    /* background: conic-gradient(red  , blue, yellow, red ); */
+    
+}

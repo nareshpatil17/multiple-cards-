@@ -1,0 +1,52 @@
+@font-face {
+    font-family: raju;
+    src: url(../Dracutaz.otf);
+}
+
+@font-face{
+    font-family: kaliya;
+    src: url(../NeueMachina-Bold_WaMOsLX9Z9.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+h1{
+    color:pink;
+    background-color: black;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style:italic;
+    text-align:right;
+}
+p{
+    color: gray;
+    background-color: aqua;
+    text-align:left;
+    
+}
+h2{
+    color: beige;
+    background-color: blueviolet;
+    text-transform:capitalize;
+}
+h3{
+    color: violet;
+    background-color: black;
+    font-family: raju;
+
+}
+
+h4{
+    color: azure;
+    background-color: black;
+    font-family:kaliya;
+}
