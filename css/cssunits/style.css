@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    /* font-size: 20px; */
+}
+
+/* .box{
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+
+} */
+
+/* .box{
+    background-color: lightblue;
+    height: 50%;
+    width: 30%;
+
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 30vh;
+    width: 200px;
+} */
+/* 
+.box{
+    background-color: lightgreen;
+    height: 200px;
+    width: 30vw;
+} */
+ /* .box{
+    background-color: lightgreen;
+    height: 30vh;
+    width: 30vh;
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 30vw;
+    width: 30vw;
+} */
+/* 
+.box{
+    background-color: lightgreen;
+    height: 30vmax;
+    width: 200px;
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 200px;
+    width: 30vmax;
+} */
+/* 
+.box{
+    background-color: lightgreen;
+    height: 30vmin;
+    width: 200px;
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 200px;
+    width: 30vmin;
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 30vmin;
+    width: 30vmin;
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 30vmax;
+    width: 30vmax;
+} */
+
+/* .box{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+}
+h1{
+    color: white;
+    font-size: 4em;
+} */
+
+.box{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+}
+/* 
+h1{
+    color: white;
+    font-size: 6rem;
+} */

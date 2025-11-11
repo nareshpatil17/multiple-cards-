@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: crimson;
+}
+aside{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+}
+section{
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: lightpink;
+} */
+
+

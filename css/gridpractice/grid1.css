@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 80px 1fr 0.5fr 0.5fr;
+
+    grid-template-areas: "header header header"
+                         "center center center"
+                         "left-bottom top-bottom right-bottom"
+                         "left-bottom bottom-down right-bottom"   
+    ;
+}
+div{
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+}
+.header{
+    grid-area: header;
+    background-color: crimson;
+}
+.center{
+    grid-area: center;
+    background-color: darkmagenta;
+}
+.left-bottom{
+    grid-area: left-bottom;
+    background-color: darkorange;
+}
+.top-bottom{
+    grid-area:  top-bottom;
+    background-color: darkseagreen;
+}
+.bottom-down{
+    grid-area: bottom-down;
+    background-color: darkturquoise;
+}
+.right-bottom{
+    grid-area: right-bottom;
+    background-color: darkred;
+}
