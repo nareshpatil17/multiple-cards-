@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+main{
+    background-color: #000000;
+    width: 100%;
+
+    .view1 .bigcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 2rem;
+        
+    }
+
+     .bigcard{
+        background-image: url(./image.png);
+        background-size: cover;
+        aspect-ratio: 1/1;
+        background-position: center;
+        border-radius: 2rem;
+        
+
+    }
+    
+    
+ }
